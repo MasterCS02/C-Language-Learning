@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\Lesson67\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B90CE555-5899-4E4E-9F49-AC3C22206C65}|Lesson67\\Lesson67.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson67\\Lesson67\\Lesson67.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B90CE555-5899-4E4E-9F49-AC3C22206C65}|Lesson67\\Lesson67.vcxproj|solutionrelative:Lesson67\\Lesson67.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lesson67.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson67\\Lesson67\\Lesson67.c",
+              "RelativeDocumentMoniker": "Lesson67\\Lesson67.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson67\\Lesson67\\Lesson67.c",
+              "RelativeToolTip": "Lesson67\\Lesson67.c",
+              "ViewState": "AgIAAJgCAAAAAAAAAAAAAKkCAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-10T11:30:48.877Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
