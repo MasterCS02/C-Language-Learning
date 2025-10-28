@@ -98,25 +98,26 @@
 //	return 0;
 //}
 
-//my_strlen函数实现
-int my_strlen(const char* str)
-{
-	int count = 0;
-	assert(str);//防止str为空指针
+////my_strlen函数实现
+//int my_strlen(const char* str)
+//{
+//	int count = 0;
+//	assert(str);//防止str为空指针
+//
+//	while (*str != '\0')
+//	{
+//		count++;
+//		str++;
+//	}
+//	return count;
+//}
+//
+//int main()
+//{
+//	char arr[] = "hello bit";
+//	int len = my_strlen(arr);
+//	printf("%d\n", len);
+//
+//	return 0;
+//}
 
-	while (*str != '\0')
-	{
-		count++;
-		str++;
-	}
-	return count;
-}
-
-int main()
-{
-	char arr[] = "hello bit";
-	int len = my_strlen(arr);
-	printf("%d\n", len);
-
-	return 0;
-}
