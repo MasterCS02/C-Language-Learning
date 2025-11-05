@@ -186,18 +186,209 @@
 //}
 
 //浮点数的存储
+//int main()
+//{
+//	int n = 9;
+//	//9的补码为
+//	//00000000000000000000000000001001
+//	float* pFloat = (float*)&n;
+//
+//	printf("n的值为：%d\n", n);
+//	printf("*pFloat的值为：%f\n", *pFloat);
+//
+//	//当整数9的二进制补码序列被解读为浮点数时
+//	//0 00000000 00000000000000000001001
+//	//S=0,E=1-127,M=0.00000000000000000001001
+//	//所以这串二进制序列所指代的单精度浮点数为
+//	//(-1)^0 * 0.00000000000000000001001*2^-126
+//	//这是一个非常接近0的数字
+//
+//	*pFloat = 9.0;
+//	printf("num的值为：%d\n", n);
+//
+//	//9.0按照单精度浮点数在内存中存储的二进制序列为
+//	//1001.0
+//	//(-1)^0 * 1.0010*2^3
+//	//S=0,E=3,M=1.0010   在内存中存储的E为E+127=130
+//	//0 10000010 00100000000000000000000
+//	//这串二进制序列被解读为整数时，所指代的整数为1,091,567,616
+//
+//	printf("*pFloat的值为：%f\n", *pFloat);
+//
+//	return 0;
+//
+//}
+
+//int main()
+//{
+//	float f = 5.5;
+//	//5.5
+//	//101.1  该浮点数的二进制序列
+//	//(-1)*0*1.011*2^2  科学计数法表示
+//	//S=0,E=2,M=1.011
+//	//对于float来说，E需要加上中间值127才能存放在内存中，即129
+//	//0    10000001    01100000000000000000000
+//	//S        E                M
+//	//0100 0000 1011 0000 0000 0000 0000 0000 - 二进制
+//	//0x40b00000                              - 十六进制
+//
+//	return 0;
+//}
+
+//收尾习题
+//调整奇数偶数顺序
+
+//int main()
+//{
+//	//创建一个整数数组
+//	int arr[10] = { 0 };
+//	int arr_tmp[10] = { 0 };
+//	int i = 0;
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//
+//	//输入数组元素
+//	for (i = 0; i < sz; i++)
+//	{
+//		scanf("%d", &arr[i]);
+//	}
+//
+//	int j = 0;
+//
+//	//将奇数都放在数组前面
+//	for (i = 0; i < sz; i++)
+//	{
+//		if (arr[i] % 2 == 1)
+//		{
+//			arr_tmp[j++] = arr[i];
+//		}
+//	}
+//
+//	//将偶数都放在数组后面
+//	for (i = 0; i < sz; i++)
+//	{
+//		if (arr[i] % 2 == 0)
+//		{
+//			arr_tmp[j++] = arr[i];
+//		}
+//	}
+//
+//	//将编辑完的结果拷贝到原数组
+//	for (i = 0; i < sz; i++)
+//	{
+//		arr[i] = arr_tmp[i];
+//	}
+//
+//	//输出
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//
+//	return 0;
+//}
+
+//课堂版本
+
+//void move_odd_even(int* arr, int sz)
+//{
+//	int left = 0;
+//	int right = sz - 1;
+//
+//	while (left < right)
+//	{
+//		//左下标找到一个偶数然后停下来
+//		while ((left < right) && (arr[left] % 2 == 1))
+//		{
+//			left++;
+//		}
+//		
+//		while ((left < right) && (arr[right] % 2 == 0))
+//		{
+//			right--;
+//		}
+//
+//		if (left < right)
+//		{
+//			int tmp = arr[left];
+//			arr[left] = arr[right];
+//			arr[right] = tmp;
+//			left++;
+//			right--;
+//		}
+//	}
+//}
+//int main()
+//{
+//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+//	int sz = sizeof(arr) / sizeof(arr[10]);
+//
+//	move_odd_even(arr,sz);
+//
+//	int i = 0;
+//	for (i = 0; i < sz; i++)
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//
+//	return 0;
+//}
+
+//合并两个有序序列
 int main()
 {
-	int n = 9;
-	float* pFloat = (float*)&n;
+	int n = 5;
+	int m = 6;
+	//scanf("%d %d", &n, &m);
 
-	printf("n的值为：%d\n", n);
-	printf("*pFloat的值为：%f\n", *pFloat);
+	int arr1[1000] = { 0 };
+	int arr2[1000] = { 0 };
 
-	*pFloat = 9.0;
-	printf("num的值为：%d\n", n);
-	printf("*pFloat的值为：%f\n", *pFloat);
+	int i = 0;
+	int j = 0;
+	int k = 0;
+
+	//输入有序数列
+	for (i = 0; i < n; i++)
+	{
+		scanf("%d", &arr1[i]);
+	}
+
+	for (i = 0; i < m; i++)
+	{
+		scanf("%d", &arr2[i]);
+	}
+
+	//谁小，就先打印谁
+	while (( j < n ) && ( k < m ))
+	{
+		if (arr1[j] < arr2[k])
+		{
+			printf("%d ", arr1[j]);
+			j++;
+		}
+		else
+		{
+			printf("%d ", arr2[k]);
+			k++;
+		}
+	}
+
+	//判断剩余情况
+	if (j < n)
+	{
+		for ( ; j < n; j++)
+		{
+			printf("%d ", arr1[j]);
+		}
+	}
+	else
+	{
+		for (; k < m; k++)
+		{
+			printf("%d ", arr2[k]);
+		}
+		
+	}
 
 	return 0;
-
 }
