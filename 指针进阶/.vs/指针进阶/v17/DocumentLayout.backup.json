@@ -27,8 +27,7 @@
               "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
               "ViewState": "AgIAAHECAAAAAAAAAAAqwIUCAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-05T16:40:08.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T16:40:08.575Z"
             },
             {
               "$type": "Document",
@@ -36,12 +35,16 @@
               "Title": "\u6307\u9488\u8FDB\u9636.c",
               "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c",
               "RelativeDocumentMoniker": "\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c",
-              "RelativeToolTip": "\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFgAAAAbAAAAAAAAAA==",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c*",
+              "RelativeToolTip": "\u6307\u9488\u8FDB\u9636\\\u6307\u9488\u8FDB\u9636.c*",
+              "ViewState": "AgIAAPQCAAAAAAAAAAAawAkDAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-05T16:30:07.581Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             }
           ]
         }
