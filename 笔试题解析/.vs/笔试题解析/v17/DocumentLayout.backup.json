@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7B14\u8BD5\u9898\u89E3\u6790\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F453B7E-DA85-4927-8A88-F148D7239443}|\u7B14\u8BD5\u9898\u89E3\u6790\\\u7B14\u8BD5\u9898\u89E3\u6790.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F453B7E-DA85-4927-8A88-F148D7239443}|\u7B14\u8BD5\u9898\u89E3\u6790\\\u7B14\u8BD5\u9898\u89E3\u6790.vcxproj|solutionrelative:\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c",
+              "RelativeDocumentMoniker": "\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c",
+              "RelativeToolTip": "\u7B14\u8BD5\u9898\u89E3\u6790\\\u6307\u9488\u548C\u6570\u7EC4\u7B14\u8BD5\u9898\u89E3\u6790.c",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAgwKUBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-10T17:54:13.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

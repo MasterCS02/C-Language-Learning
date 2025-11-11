@@ -1,0 +1,3 @@
+﻿  字符函数和字符串函数.c
+E:\Visual Studio 2022\Code\C-Language-learning\字符函数和字符串函数\字符函数和字符串函数\字符函数和字符串函数.c(237,4): warning C4090: “return”: 不同的“const”限定符
+  字符函数和字符串函数.vcxproj -> E:\Visual Studio 2022\Code\C-Language-learning\字符函数和字符串函数\x64\Debug\字符函数和字符串函数.exe
