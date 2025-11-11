@@ -211,55 +211,159 @@
 //}
 
 //strstr
-char* my_strstr(const char* str1, const char* str2)
+//char* my_strstr(const char* str1, const char* str2)
+//{
+//	assert(str1 && str2);
+//	const char* s1 = str1;  //被查找的主字符串起点
+//	const char* s2 = str2;  //目标子串的起点
+//	const char* p = str1;   //p用来记录每次比较的起点，位于主字符串
+//
+//	while (*p)  //确认p指针不是指向空位置
+//	{
+//		s1 = p;  //p指针是主字符串被查找的起始位置
+//		s2 = str2;  //s2回到子串的起始位置
+//
+//		//比较
+//		while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2)  //如果相等，各自++
+//		{
+//			s1++;
+//			s2++;
+//		}
+//
+//		//比较结束后，确认s2是否指向\0
+//		//若指向\0，则说明查找成功
+//		if (*s2 == '\0')
+//		{
+//			return p;
+//		}
+//		p++;
+//	}
+//
+//	//当p指针都指向了主字符串的末尾处但还是没有查找成功的话
+//	//就说明子串不存在于主串
+//	//返回空指针
+//	return NULL;
+//	
+//}
+//
+//int main()
+//{
+//	char email[] = "nicereyes@163.com";
+//	char substr[] = "163";
+//	char* ret = my_strstr(email, substr);
+//
+//	if (ret == NULL)
+//	{
+//		printf("子串不存在！\n");
+//	}
+//	else
+//	{
+//		printf("%s\n", ret);
+//	}
+//	return 0;
+//}
+
+//strtok
+//切割字符串
+
+//int main()
+//{
+//	const char* sep = "@.";  //定义分隔符集合
+//	char email[] = "nickreyes@163.com";
+//	char cp[30] = { 0 };
+//	strcpy(cp, email);
+//
+//	char* ret = strtok(cp, sep);  //第一次分割
+//	printf("%s\n", ret);
+//
+//	ret = strtok(NULL, sep);  //第二次分割
+//	printf("%s\n", ret);
+//
+//	ret = strtok(NULL, sep);  //第三次分割
+//	printf("%s\n", ret);
+//
+//	return 0;
+//}
+
+//int main()
+//{
+//	const char* sep = "@.";  //定义分隔符集合
+//	char email[] = "nickreyes@163.com";
+//	char cp[30] = { 0 };
+//	strcpy(cp, email);
+//
+//	char* ret = NULL;  //指针初始化为空指针
+//	for (ret = strtok(cp, sep); ret != NULL; ret = strtok(NULL, sep))
+//	{
+//		printf("%s\n", ret);
+//	}
+//
+//	return 0;
+//}
+
+//strerror
+//int main()
+//{
+//	printf("%s\n", strerror(0));
+//	//No error
+//
+//	printf("%s\n", strerror(1));
+//	//Operation not permitted
+//
+//	printf("%s\n", strerror(2));
+//	//No such file or directory
+//
+//	printf("%s\n", strerror(3));
+//	//No such process
+//
+//	printf("%s\n", strerror(4));
+//	//Interrupted function call
+//
+//	printf("%s\n", strerror(5));
+//	//Input / output error
+//
+//	return 0;
+//}
+
+//#include <errno.h>
+//int main()
+//{
+//	FILE* pf = fopen("test.txt", "r");
+//	if (pf == NULL)
+//	{
+//		printf("%s\n", strerror(errno));
+//		return 1;
+//	}
+//	else
+//	{
+//		//
+//	}
+//	return 0;
+//}
+
+
+void* my_memcpy(void* dest, const void* src, size_t num)
 {
-	assert(str1 && str2);
-	const char* s1 = str1;  //被查找的主字符串起点
-	const char* s2 = str2;  //目标子串的起点
-	const char* p = str1;   //p用来记录每次比较的起点，位于主字符串
-
-	while (*p)  //确认p指针不是指向空位置
+	assert(dest && src);
+	void* ret = dest;
+	while (num--)
 	{
-		s1 = p;  //p指针是主字符串被查找的起始位置
-		s2 = str2;  //s2回到子串的起始位置
-
-		//比较
-		while (*s1 != '\0' && *s2 != '\0' && *s1 == *s2)  //如果相等，各自++
-		{
-			s1++;
-			s2++;
-		}
-
-		//比较结束后，确认s2是否指向\0
-		//若指向\0，则说明查找成功
-		if (*s2 == '\0')
-		{
-			return p;
-		}
-		p++;
+		(char*)dest = (char*)src;
+		dest = (char*)dest + 1;
+		src = (char*)src + 1;
 	}
 
-	//当p指针都指向了主字符串的末尾处但还是没有查找成功的话
-	//就说明子串不存在于主串
-	//返回空指针
-	return NULL;
-	
+	return ret;
 }
 
 int main()
 {
-	char email[] = "nicereyes@163.com";
-	char substr[] = "163";
-	char* ret = my_strstr(email, substr);
+	int arr1[] = { 1,2,3,4,5,6,7 };
+	int arr2[10] = { 0 };
 
-	if (ret == NULL)
-	{
-		printf("子串不存在！\n");
-	}
-	else
-	{
-		printf("%s\n", ret);
-	}
+	my_memcpy(arr2, arr1, 28);
+
 	return 0;
 }
-
+//memcpy负责拷贝两块独立空间中的数据
+//重叠内存的拷贝是无法完成的，得通过memmove函数才能实现
