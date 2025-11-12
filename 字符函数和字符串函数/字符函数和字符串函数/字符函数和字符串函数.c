@@ -342,28 +342,97 @@
 //}
 
 
-void* my_memcpy(void* dest, const void* src, size_t num)
-{
-	assert(dest && src);
-	void* ret = dest;
-	while (num--)
-	{
-		(char*)dest = (char*)src;
-		dest = (char*)dest + 1;
-		src = (char*)src + 1;
-	}
+//void* my_memcpy(void* dest, const void* src, size_t num)
+//{
+//	assert(dest && src);
+//	void* ret = dest;
+//	while (num--)
+//	{
+//		(char*)dest = (char*)src;
+//		dest = (char*)dest + 1;
+//		src = (char*)src + 1;
+//	}
+//
+//	return ret;
+//}
+//
+//
+//void* my_memmove(void* dest, void* src, size_t num)
+//{
+//	assert(dest && src);
+//	void* ret = dest;
+//
+//	//分两种情况
+//	//1. dest<src
+//	if (dest < src)
+//	{
+//		//前->后
+//		while (num--)
+//		{
+//			*(char*)dest = *(char*)src;
+//			dest = (char*)dest + 1;
+//			src = (char*)src + 1;
+//		}
+//	}
+//	//2. dest>src
+//	else
+//	{
+//		//后->前
+//		while(num--)
+//		{
+//			*((char*)dest + num) = *((char*)src + num);
+//		}
+//	}
+//	return ret;
+//}
+//
+//void test()
+//{
+//	int arr1[] = { 1,2,3,4,5,6,7,8,9,10 };
+//	my_memmove(arr1 + 2, arr1, 20);
+//
+//	int i = 0;
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d ", arr1[i]);
+//	}
+//	// 1 2 1 2 3 4 5 8 9 10
+//}
+//
+//int main()
+//{
+//	test();
+//	return 0;
+//}
+//memcpy负责拷贝两块独立空间中的数据
+//重叠内存的拷贝是无法完成的，得通过memmove函数才能实现\
 
-	return ret;
-}
 
+//memcmp
+//int main()
+//{
+//	int arr1[] = { 1,2,3,4,5 };
+//	//01 00 00 00 02 00 00 00 03 00 00 00 04 00 00 00 05 00 00 00
+//
+//	int arr2[] = { 1,3,2 };
+//	//01 00 00 00 03 00 00 00 02 00 00 00
+//
+//	int ret = memcmp(arr1, arr2, 12);
+//	printf("%d\n", ret);  //-1
+//
+//	return 0;
+//}
+
+//memset
 int main()
 {
-	int arr1[] = { 1,2,3,4,5,6,7 };
-	int arr2[10] = { 0 };
+	//char arr[] = "hello bit";
+	//memset(arr, 'x', 5);
+	//printf("%s\n", arr);
+	////xxxxx bit
 
-	my_memcpy(arr2, arr1, 28);
+	int arr[10] = { 0 };
+	//把arr 初始化为全1
 
 	return 0;
 }
-//memcpy负责拷贝两块独立空间中的数据
-//重叠内存的拷贝是无法完成的，得通过memmove函数才能实现
