@@ -1,2 +1,6 @@
 ﻿  自定义类型.c
+E:\Visual Studio 2022\Code\C-Language-learning\自定义类型\自定义类型\自定义类型.c(255,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+      E:\Visual Studio 2022\Code\C-Language-learning\自定义类型\自定义类型\自定义类型.c(255,9):
+      请考虑在格式字符串中使用“%zd”
+  
   自定义类型.vcxproj -> E:\Visual Studio 2022\Code\C-Language-learning\自定义类型\x64\Debug\自定义类型.exe

@@ -152,23 +152,112 @@
 //	return 0;
 //}
 
-struct S
-{
-	char a : 3;
-	char b : 4;
-	char c : 5;
-	char d : 4;
+//struct S
+//{
+//	char a : 3;
+//	char b : 4;
+//	char c : 5;
+//	char d : 4;
+//
+//};
+//
+//int main()
+//{
+//	struct S s = { 0 };
+//	s.a = 10;
+//	s.b = 12;
+//	s.c = 3;
+//	s.d = 4;
+//
+//	return 0;
+//
+//}
 
-};
 
-int main()
-{
-	struct S s = { 0 };
-	s.a = 10;
-	s.b = 12;
-	s.c = 3;
-	s.d = 4;
+//枚举
+//enum Day  //这是一个枚举类型，不会在内存中占空间
+//{
+//	//枚举常量
+//	Mon,  //0
+//	Tues, //1
+//	Wed,
+//	Thur,
+//	Fri,
+//	Sat,
+//	Sun,  //6
+//};
+//
+//int main()
+//{
+//
+//	enum Day Wu = Fri;
+//
+//	printf("%d\n", Mon);  //0
+//	printf("%d\n", Tues); //1
+//	printf("%d\n", Wed);  //2
+//
+//	return 0;
+//}
 
-	return 0;
+//联合
+//union Un
+//{
+//	int i;
+//	char c;
+//};
+//
+//int main()
+//{
+//	union Un un;
+//	
+//	printf("%p\n", &un);
+//	printf("%p\n", &(un.i));
+//	printf("%p\n", &(un.c));
+//	//这三个地址是完全一模一样的
+//
+//	return 0;
+//}
 
-}
+//int check_sys(void)
+//{
+//	union Un
+//	{
+//		int i;
+//		char a;
+//	}un;
+//
+//	un.i = 1;
+//	return un.a;
+//}
+//
+//int main()
+//{
+//	int a = 1;
+//
+//	int ret = check_sys(); 
+//
+//	if (ret == 1)
+//		printf("小端");
+//	else
+//		printf("大端");
+//
+//	return 0;
+//}
+
+//union Un
+//{
+//	char arr[5];
+//	int i;
+//}un;
+//
+//int main()
+//{
+//	printf("%d\n", sizeof(union Un));  //8
+//
+//	printf("%p\n", &un.arr);
+//	printf("%p\n", &un.i);
+//	//两个变量的起始地址都是一样的
+//
+//	return 0;
+//}
+
