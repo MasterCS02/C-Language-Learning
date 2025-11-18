@@ -80,38 +80,74 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//
+//	int* p = (int*)malloc(40);
+//
+//	if (p == NULL)
+//	{
+//		printf("%s\n", strerror(errno));
+//		return 1;  
+//	}
+//
+//	int i = 0;
+//	for (i = 0; i < 10; i++)
+//	{
+//		*(p + i) = i + 1;
+//	}
+//
+//	int* ptr = (int*)realloc(p, 80);
+//
+//	//将原来开辟的空间从40个字节扩容到80个字节
+//	//不能直接把realloc的返回值返回给原指针
+//	//因为当realloc开辟新空间失败的时候，会返回空指针
+//
+//	if (ptr != NULL)
+//	{
+//		p = ptr;
+//	}
+//
+//	//所以必须用一个新的指针变量来接受realloc的返回值
+//	//并对其进行空指针的判断
+//	//如果不是空指针，那么再将其赋值到原先的p指针去
+//	//否则，就不可以
+//
+//	return 0;
+//}
+
+
+//动态管理内存可能会出现的问题
+void test()
+{
+	int* p = (int*)malloc(40);
+	*p = 20;  
+	//因为malloc有可能开辟空间失败而返回空指针
+	//所以这个时候如果直接解引用就可能会出问题
+	//所以必须要进行空指针的判断
+	free(p);
+}
+
 int main()
 {
-
 	int* p = (int*)malloc(40);
 
 	if (p == NULL)
 	{
 		printf("%s\n", strerror(errno));
-		return 1;  
+		return 1;
 	}
 
 	int i = 0;
+
 	for (i = 0; i < 10; i++)
 	{
-		*(p + i) = i + 1;
+		*p = i;
+		p++;
 	}
 
-	int* ptr = (int*)realloc(p, 80);
-
-	//将原来开辟的空间从40个字节扩容到80个字节
-	//不能直接把realloc的返回值返回给原指针
-	//因为当realloc开辟新空间失败的时候，会返回空指针
-
-	if (ptr != NULL)
-	{
-		p = ptr;
-	}
-
-	//所以必须用一个新的指针变量来接受realloc的返回值
-	//并对其进行空指针的判断
-	//如果不是空指针，那么再将其赋值到原先的p指针去
-	//否则，就不可以
+	free(p);
+	p = NULL;
 
 	return 0;
 }
