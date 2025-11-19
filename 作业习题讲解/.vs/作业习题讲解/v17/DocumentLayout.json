@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95D0FD37-C37F-42D3-BF81-C8EFF4559990}|\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{95D0FD37-C37F-42D3-BF81-C8EFF4559990}|\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.vcxproj|solutionrelative:\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95D0FD37-C37F-42D3-BF81-C8EFF4559990}|\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{95D0FD37-C37F-42D3-BF81-C8EFF4559990}|\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.vcxproj|solutionrelative:\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c",
+              "RelativeDocumentMoniker": "\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c",
+              "RelativeToolTip": "\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.19\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.c",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwJwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-18T19:12:33.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp",
               "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp",
               "RelativeDocumentMoniker": "\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp",
               "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp",
               "RelativeToolTip": "\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3\\2025.11.12\u4F5C\u4E1A\u4E60\u9898\u8BB2\u89E3.cpp",
-              "ViewState": "AgIAAMMCAAAAAAAAAAAAAOYCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAK4CAAAAAAAAAAAAAOYCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-12T13:14:07.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-12T13:14:07.406Z"
             }
           ]
         }

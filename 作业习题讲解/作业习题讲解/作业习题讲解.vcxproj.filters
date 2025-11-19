@@ -18,5 +18,8 @@
     <ClCompile Include="2025.11.12作业习题讲解.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="2025.11.19作业习题讲解.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
