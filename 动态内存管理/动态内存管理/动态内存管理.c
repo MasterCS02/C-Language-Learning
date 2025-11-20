@@ -298,19 +298,127 @@
 //}
 
 //4
-void Test(void)
+//void Test(void)
+//{
+//	char* str = (char*)malloc(100);
+//	strcpy(str, "hello");
+//
+//	free(str);
+//	//free使得str指向的空间被交还给了操作系统
+//	//这个时候str的空间已经不属于使用者了
+//	//所以再使用str就属于野指针
+//
+//	if (str != NULL)
+//	{
+//		strcpy(str, "world");
+//		printf(str);
+//	}
+//}
+
+//柔性数组
+
+//struct S
+//{
+//	int n;
+//	int arr[];  //柔性数组
+//};
+//
+//int main()
+//{
+//	struct S* ps = (struct S*)malloc(sizeof(struct S) + 40);
+//
+//	//判断malloc是否开辟成功
+//	if (ps == NULL)
+//	{
+//		return 1;
+//	}
+//
+//	ps->n = 100;  //给n赋值上100
+//
+//	//给刚刚开辟了40字节的柔性数组赋值
+//	int i = 0;
+//	for (i = 0; i < 10; i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//
+//	//打印柔性数组
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d ", ps->arr[i]);
+//	}
+//
+//	//重新分配空间（扩容）
+//	struct S* ptr = (struct S*)realloc(ps, sizeof(struct S) + 80);//扩容到80个字节
+//
+//	//检查扩容是否成功
+//	if (ptr != NULL)
+//	{
+//		ps = ptr;
+//	}
+//
+//	//...
+//
+//	//释放空间
+//	free(ps);
+//	ps = NULL;
+//
+//	return 0;
+//}
+
+//另一种形式
+typedef struct S
 {
-	char* str = (char*)malloc(100);
-	strcpy(str, "hello");
+	int n;
+	int* arr;
+}S;
 
-	free(str);
-	//free使得str指向的空间被交还给了操作系统
-	//这个时候str的空间已经不属于使用者了
-	//所以再使用str就属于野指针
+int main()
+{
+	//因为动态内存开辟的空间是在堆区上的
+	//所以要确保结构体和结构体里面的数组的数据都要存放在堆区上
+	//否则就会出现结构体开辟在栈区，数组在堆区的情况
 
-	if (str != NULL)
+	//先为结构体动态开辟内存空间（这是存放在堆区上的）
+	S* ps = (S*)malloc(sizeof(S));
+	if (ps == NULL)
 	{
-		strcpy(str, "world");
-		printf(str);
+		return 1;
 	}
+
+	ps->n = 100;
+
+	//为数组开辟内存空间
+	ps->arr = (int*)malloc(40);
+
+	if (ps->arr == NULL)
+	{
+		return 1;
+	}
+
+	//使用
+	int i = 0;
+	for (i = 0; i < 10; i++)
+	{
+		ps->arr[i] = i;
+	}
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", ps->arr[i]);
+	}
+
+	//重新分配空间
+	int* ptr = (int*)realloc(ps->arr, 80);
+	if (ptr != NULL)
+	{
+		ps->arr = ptr;
+	}
+
+	free(ps->arr);
+	free(ps);
+	ps = NULL;
+
+	//记住，开辟几次空间，就要释放几次
+
+	return 0;
 }
