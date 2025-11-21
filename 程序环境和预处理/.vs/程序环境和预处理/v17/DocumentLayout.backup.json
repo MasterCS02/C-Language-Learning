@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|solutionrelative:\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|solutionrelative:\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DE3CBF3-1B4C-482A-8EDE-493F15F3FEE3}|\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.vcxproj|solutionrelative:\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 237,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "add.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c",
+              "RelativeDocumentMoniker": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c",
+              "RelativeToolTip": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\add.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-20T14:17:04.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c",
+              "RelativeDocumentMoniker": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c*",
+              "RelativeToolTip": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\test.c*",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-20T14:16:56.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c",
+              "RelativeDocumentMoniker": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c",
+              "RelativeToolTip": "\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406\\\u7A0B\u5E8F\u73AF\u5883\u548C\u9884\u5904\u7406.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-20T14:01:00.171Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
