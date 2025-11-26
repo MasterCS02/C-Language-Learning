@@ -1,0 +1,4 @@
+﻿  习题.c
+E:\Visual Studio 2022\Code\C-Language-learning\进阶C语言测评\进阶C语言测评\习题.c(69,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Visual Studio 2022\Code\C-Language-learning\进阶C语言测评\进阶C语言测评\习题.c(100,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  进阶C语言测评.vcxproj -> E:\Visual Studio 2022\Code\C-Language-learning\进阶C语言测评\x64\Debug\进阶C语言测评.exe

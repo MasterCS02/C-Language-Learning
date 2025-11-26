@@ -365,56 +365,194 @@ int cmp_int(const void* e1, const void* e2)
 
 //课堂版本
 
-void find_single_num(int* arr, int sz, int* pd1, int* pd2)
-{
-	int i = 0;
-	int ret = 0;
+//void find_single_num(int* arr, int sz, int* pd1, int* pd2)
+//{
+//	int i = 0;
+//	int ret = 0;
+//
+//	//异或
+//	for (i = 0; i < sz; i++)
+//	{
+//		ret ^= arr[i];
+//	}
+//
+//	//计算ret的二进制中左右边第几位是1
+//	int pos = 0;
+//	for (pos = 0; pos < 32; pos++)
+//	{
+//		if ((ret >> pos) & 1 == 1)
+//		{
+//			break;
+//		}
+//	}
+//
+//	for (i = 0; i < sz; i++)
+//	{
+//		//分组
+//		if ((arr[i] >> pos) & 1 == 1)
+//		{
+//			*pd1 ^= arr[i];
+//		}
+//		else
+//		{
+//			*pd2 ^= arr[i];
+//		}
+//	}
+//
+//}
+//
+//int main()
+//{
+//	//分组
+//	//1.所有数字异或
+//	//2.找出异或的结果数字中哪一位为1，这一位被称为第n位
+//	//3.以第n位为1，分一组；第n位为0，分一组
+//
+//	int arr[] = { 1,2,3,4,5,1,2,3,4,6 };
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	int dog1 = 0;
+//	int dog2 = 0;
+//
+//	find_single_num(arr, sz, &dog1, &dog2);
+//	printf("%d %d", dog1, dog2);
+//
+//	return 0;
+//}
 
-	//异或
-	for (i = 0; i < sz; i++)
-	{
-		ret ^= arr[i];
-	}
+//atoi函数实现
+//enum Status
+//{
+//	VALID,
+//	INVALID
+//}status = INVALID;//默认非法
+//
+//
+//#include <assert.h>
+//int my_atoi(const char* str)
+//{
+//	//1.防止传进空指针
+//	assert(str);
+//	int flag = 1;  //默认为正数
+//
+//	long long ret = 0;
+//
+//	//2.确保传进来的不是空字符串
+//	// 判断字符串第一个字符是不是\0
+//	if (*str == '\0')
+//	{
+//		return 0;  //非法0
+//	}
+//
+//	//3.空格（跳过空格）
+//	while (isspace(*str))
+//	{
+//		str++;
+//	}
+//
+//	//4.+-正负问题
+//	//正负号一定出现在字符串首部
+//	if (*str == '-')  //注1
+//	{
+//		flag = -1;
+//		str++;
+//	}
+//	else if (*str == '+')
+//	{
+//		str++;
+//	}
+//
+//	//计算
+//	while (*str)
+//	{
+//		//确保计算的是数字字符，排除字母
+//		if (isdigit(*str))
+//		{
+//			ret = ret * 10 + flag * (*str - '0');
+//
+//			//每次计算之后判断是否越界
+//			if (ret > INT_MAX || ret < INT_MIN)
+//			{
+//				return 0;  //越界直接返回0
+//			}
+//		}
+//		else  //有字母直接返回（非法）
+//		{
+//			return (int)ret;  
+//		}
+//		str++;
+//
+//	}
+//
+//	//如果转换过程正常，没有出现任何中断
+//	//那么此时str应指向\0
+//	if (*str == '\0')
+//	{
+//		status = VALID;
+//	}
+//
+//	return (int)ret;
+//}
+//
+//int main()
+//{
+//	char arr[] = "+125";
+//
+//	int ret = my_atoi(arr);
+//
+//	if (status == VALID)
+//	{
+//		printf("合法返回：%d\n",ret);
+//	}
+//	else if(status == INVALID)
+//	{
+//		printf("非法返回：%d\n", ret);
+//	}
+//	return 0;
+//}
 
-	//计算ret的二进制中左右边第几位是1
-	int pos = 0;
-	for (pos = 0; pos < 32; pos++)
-	{
-		if ((ret >> pos) & 1 == 1)
-		{
-			break;
-		}
-	}
+//#define INT_PTR int*
+//typedef int* int_ptr;
+//
+//INT_PTR a, b; 
+////这里宏替换之后会变成
+////int* a,b;
+////其中，a的类型是int*，b的类型是int
+//
+//int_ptr c, d;  //c和d都是指针类型
 
-	for (i = 0; i < sz; i++)
-	{
-		//分组
-		if ((arr[i] >> pos) & 1 == 1)
-		{
-			*pd1 ^= arr[i];
-		}
-		else
-		{
-			*pd2 ^= arr[i];
-		}
-	}
-
-}
+#define SWAP_BIT(n) (((n&0x55555555)<<1)+((n&0xaaaaaaaa)>>1))
 
 int main()
 {
-	//分组
-	//1.所有数字异或
-	//2.找出异或的结果数字中哪一位为1，这一位被称为第n位
-	//3.以第n位为1，分一组；第n位为0，分一组
+	//1010 1010 1010 1010 1010 1010 1010 1010 - 原序列
+	//0101 0101 0101 0101 0101 0101 0101 0101 - 移位后的结果
+	//0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  - 偶数位所有数字
+	// 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 - 奇数位所有数字
 
-	int arr[] = { 1,2,3,4,5,1,2,3,4,6 };
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	int dog1 = 0;
-	int dog2 = 0;
+	//提取偶数位数字
+	//将原序列 按位与 下列二进制序列
+	//BIN - 0101 0101 0101 0101 0101 0101 0101 0101
+	//HEX - 5    5    5    5    5    5    5    5
+	//奇数位 & 0 --> 奇数位清空（全为0）
+	//偶数位 & 1 --> 偶数位保留（结果不变）
+	//按位与出来的结果就是偶数位序列
+	//将其左移一位
 
-	find_single_num(arr, sz, &dog1, &dog2);
-	printf("%d %d", dog1, dog2);
+	//提取奇数位数字
+	//将原序列按位与下列二进制序列
+	//BIN - 1010 1010 1010 1010 1010 1010 1010 1010
+	//HEX - a    a    a    a    a    a    a    a
+	//按位与出来的结果就是奇数位序列
+	//将其右移一位
+
+	//将分离出来的偶数位序列和奇数位序列相加起来
+	//就是原序列奇数位和偶数位互换之后的结果
+
+	int n = 0;
+	scanf("%d", &n);
+	int ret = SWAP_BIT(n);
+	printf("%d\n", ret);
 
 	return 0;
 }
+

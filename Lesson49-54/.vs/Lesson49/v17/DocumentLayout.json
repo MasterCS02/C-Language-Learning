@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\Lesson49\\",
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson49-54\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD177C44-28BA-4BA5-A20F-6E21B5A257E2}|Lesson49\\Lesson49.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson49\\Lesson49\\Lesson49.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DD177C44-28BA-4BA5-A20F-6E21B5A257E2}|Lesson49\\Lesson49.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson49-54\\Lesson49\\Lesson49.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DD177C44-28BA-4BA5-A20F-6E21B5A257E2}|Lesson49\\Lesson49.vcxproj|solutionrelative:Lesson49\\Lesson49.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lesson49.c",
-              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson49\\Lesson49\\Lesson49.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson49-54\\Lesson49\\Lesson49.c",
               "RelativeDocumentMoniker": "Lesson49\\Lesson49.c",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson49\\Lesson49\\Lesson49.c",
-              "RelativeToolTip": "Lesson49\\Lesson49.c",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAUwLoAAAABAAAAAAAAAA==",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson49-54\\Lesson49\\Lesson49.c*",
+              "RelativeToolTip": "Lesson49\\Lesson49.c*",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-28T15:28:33.53Z",
               "EditorCaption": ""

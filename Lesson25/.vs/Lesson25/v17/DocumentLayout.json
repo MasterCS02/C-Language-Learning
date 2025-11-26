@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\Lesson25\\",
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B37BEBB-5891-4C71-B0D4-9844D60375D1}|Lesson25\\Lesson25.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson25\\Lesson25\\Lesson25.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0B37BEBB-5891-4C71-B0D4-9844D60375D1}|Lesson25\\Lesson25.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson25\\Lesson25\\Lesson25.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0B37BEBB-5891-4C71-B0D4-9844D60375D1}|Lesson25\\Lesson25.vcxproj|solutionrelative:Lesson25\\Lesson25.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lesson25.cpp",
-              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson25\\Lesson25\\Lesson25.cpp",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson25\\Lesson25\\Lesson25.cpp",
               "RelativeDocumentMoniker": "Lesson25\\Lesson25.cpp",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson25\\Lesson25\\Lesson25.cpp",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson25\\Lesson25\\Lesson25.cpp",
               "RelativeToolTip": "Lesson25\\Lesson25.cpp",
-              "ViewState": "AgIAAOQAAAAAAAAAAAAAALwBAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAAAMIBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-07T08:48:55.154Z",
               "EditorCaption": ""

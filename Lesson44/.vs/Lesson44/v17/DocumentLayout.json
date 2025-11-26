@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\Lesson44\\",
+  "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\Lesson44.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\Lesson44.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|solutionrelative:Lesson44\\Lesson44.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|solutionrelative:Lesson44\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3455156F-9BDC-4994-A0D6-4FC13F8FC7AF}|Lesson44\\Lesson44.vcxproj|solutionrelative:Lesson44\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lesson44.c",
-              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\Lesson44.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\Lesson44.c",
               "RelativeDocumentMoniker": "Lesson44\\Lesson44.c",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\Lesson44.c",
-              "RelativeToolTip": "Lesson44\\Lesson44.c",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAAM4AAAAjAAAAAAAAAA==",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\Lesson44.c*",
+              "RelativeToolTip": "Lesson44\\Lesson44.c*",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAANsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-09-25T13:16:48.604Z",
               "EditorCaption": ""
@@ -41,9 +41,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "add.c",
-              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.c",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.c",
               "RelativeDocumentMoniker": "Lesson44\\add.c",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.c",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.c",
               "RelativeToolTip": "Lesson44\\add.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "add.h",
-              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.h",
+              "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.h",
               "RelativeDocumentMoniker": "Lesson44\\add.h",
-              "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson44\\Lesson44\\add.h",
+              "ToolTip": "E:\\Visual Studio 2022\\Code\\C-Language-learning\\Lesson44\\Lesson44\\add.h",
               "RelativeToolTip": "Lesson44\\add.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
