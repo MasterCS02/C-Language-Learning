@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "E:\\Visual Studio 2022\\Code\\Lesson1-6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|solutionrelative:Lesson1\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Visual Studio 2022\\Code\\Lesson1\\Lesson1\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|solutionrelative:Lesson1\\add.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38863B19-7954-4671-AA53-FE580A2A458E}|Lesson1\\Lesson1.vcxproj|solutionrelative:Lesson1\\Test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,24 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Test.c",
               "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\Test.c",
               "RelativeDocumentMoniker": "Lesson1\\Test.c",
               "ToolTip": "E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\Test.c",
               "RelativeToolTip": "Lesson1\\Test.c",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-18T16:40:36.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "add.c",
               "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson1-6\\Lesson1\\add.c",
               "RelativeDocumentMoniker": "Lesson1\\add.c",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Test.c",
               "DocumentMoniker": "E:\\Visual Studio 2022\\Code\\Lesson1\\Lesson1\\Test.c",
               "RelativeDocumentMoniker": "..\\Lesson1\\Lesson1\\Test.c",
